@@ -1,6 +1,6 @@
 CROSS_COMPILE ?=
 CC = $(CROSS_COMPILE)gcc
-CFLAGS = -Wall -Werror -g -pthread -time
+CFLAGS = -Wall -Werror -g
 
 TARGET = aesdsocket
 SRCS   = aesdsocket.c
